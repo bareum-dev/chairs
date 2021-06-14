@@ -1,3 +1,75 @@
 * {
   font-family: 'Roboto', sans-serif;
+  margin: 0 0 0 0;
+}
+
+.menu {
+  background-color: #EFEFEF;
+  width: 1920px;
+  height: 50px;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 18px 0 0 0;
+}
+
+.menu-list-item {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 15px 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.header-info {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-info-item {
+  margin: 21px 0 0 0;
+}
+
+.logo {
+  padding: 0 571px 0 0;
+}
+
+.logo-icon {
+  width: 80px;
+  height: 80px;
+  padding: 0 20px 0 0;
+}
+
+.logo-beauty {
+  color: #66C05D;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.phone {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 40px 0 0;
+}
+
+.button {
+  border-color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2px solid #66C05D;
+  border-radius: 20px;
 }
