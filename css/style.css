@@ -1,6 +1,7 @@
 * {
   font-family: 'Roboto', sans-serif;
   margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .menu {
@@ -28,7 +29,7 @@ a {
 }
 
 .header-info {
-  background-color: gray;
+  background-color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -38,20 +39,48 @@ a {
 
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  width: 70px;
+  width: auto;
   height: 70px;
+  margin: 0 0 0 158px;
 }
 
 .logo-icon {
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0 20px 0 0;
 }
 
 .logo-beauty {
   color: #66C05D;
   font-size: 36px;
   font-weight: 700;
-  stroke: 1px #000;
+  letter-spacing: 4px;
+}
+
+.phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 339px;
+  height: auto;
+  margin: 0 142px 0 0;
+}
+
+.phone-number {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.phone-button {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid #66C05D;
+  width: 170px;
+  height: 40px;
+  padding: 4px 0 0 0;
 }
