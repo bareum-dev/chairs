@@ -38,16 +38,20 @@ a {
 
 .logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
 }
 
 .logo-icon {
-  width: 40px;
-  height: 40px;
-  background-image: url(/img/logo.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .logo-beauty {
-
+  color: #66C05D;
+  font-size: 36px;
+  font-weight: 700;
+  stroke: 1px #000;
 }
