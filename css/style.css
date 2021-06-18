@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1px 0 0 47px;
+  padding: 1px 0 0 46px;
   max-width: 1920px;
   height: 50px;
 }
@@ -24,9 +24,12 @@
   padding: 0 30px 0 0;
 }
 
+.menu-list a {
+  color: #333333;
+}
+
 a {
   text-decoration: none;
-  color: #333333;
 }
 
 .header-info {
@@ -73,6 +76,7 @@ a {
 .phone-number {
   font-size: 16px;
   font-weight: 500;
+  color: #000;
 }
 
 .phone-button {
@@ -86,6 +90,7 @@ a {
   height: 40px;
   cursor: pointer;
   padding: 1px 0 0 0;
+  color: #000;
 }
 
 .nav {
@@ -99,10 +104,15 @@ a {
   list-style-type: none;
   max-width: 1920px;
   height: 79px;
-  padding: 0 2px 0 59px;
+  padding: 0 3px 0 59px;
 }
 
 .nav-list-item {
-  padding: 0 41px 0 0;
+  padding: 0 40px 0 0;
 }
 
+.nav-list a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+}
