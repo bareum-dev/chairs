@@ -1,26 +1,27 @@
 * {
   font-family: 'Roboto', sans-serif;
   margin: 0 0 0 0;
-  padding: 0 0 0 0;
 }
 
 .menu {
   background-color: #EFEFEF;
-  width: 1920px;
-  height: 50px;
+  
 }
 
 .menu-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding: 18px 0 0 0;
+  align-items: center;
+  padding: 1px 0 0 47px;
+  max-width: 1920px;
+  height: 50px;
 }
 
 .menu-list-item {
   font-size: 14px;
   font-weight: 500;
-  padding: 0 15px 0 15px;
+  padding: 0 30px 0 0;
 }
 
 a {
@@ -34,7 +35,7 @@ a {
   justify-content: space-around;
   align-items: center;
   max-width: 1920px;
-  height: 120px;
+  height: 118px;
   border-bottom: 1px solid #EFEFEF;
 }
 
@@ -44,7 +45,7 @@ a {
   align-items: center;
   width: auto;
   height: 70px;
-  margin: 0 0 0 158px;
+  margin: 4px 0 0 158px;
 }
 
 .logo-icon {
@@ -64,7 +65,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 339px;
+  width: 338px;
   height: auto;
   margin: 0 142px 0 0;
 }
@@ -79,12 +80,12 @@ a {
   font-weight: 500;
   background-color: transparent;
   border-radius: 30px;
-  text-align: center;
+  vertical-align: auto;
   border: 2px solid #66C05D;
   width: 170px;
   height: 40px;
-  padding: 4px 0 0 0;
   cursor: pointer;
+  padding: 1px 0 0 0;
 }
 
 .nav {
@@ -96,9 +97,12 @@ a {
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  height: 78px;
+  max-width: 1920px;
+  height: 79px;
+  padding: 0 2px 0 59px;
 }
 
 .nav-list-item {
-  padding: 0 12px 0 28px;
+  padding: 0 41px 0 0;
 }
+
