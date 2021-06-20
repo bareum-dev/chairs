@@ -118,3 +118,45 @@ a {
   color: #333333;
 }
 
+.main {
+  max-width: 1920px;
+  min-height: 604px;
+}
+
+.bg {
+  background-image: url(/img/BG.png);
+  max-width: 1920px;
+  min-height: 604px;
+  background-repeat: no-repeat;
+  background-position: 0;
+}
+
+.bg-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  padding: 192px 0 0 406px;
+}
+
+.bg-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  padding: 40px 0 0 404px;
+  line-height: 1.4;
+}
+
+.bg-button {
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 30px;
+  vertical-align: auto;
+  border: 2px solid #fff;
+  width: 170px;
+  height: 40px;
+  cursor: pointer;
+  color: #fff;
+  }
+
