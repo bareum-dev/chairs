@@ -120,43 +120,45 @@ a {
 
 .main {
   max-width: 1920px;
-  min-height: 604px;
+  min-height: 1558px;
 }
 
-.bg {
-  background-image: url(/img/BG.png);
+.background {
   max-width: 1920px;
   min-height: 604px;
+  background-image: url(/img/BG.png);
   background-repeat: no-repeat;
-  background-position: 0;
+  background-position: 0 0;
 }
 
-.bg-title {
+.wrap {
+  width: 310px;
+  height: 219px;
+  background-color: teal;
+}
+
+.wrap-title {
   font-size: 48px;
   font-weight: 700;
   color: #fff;
-  padding: 192px 0 0 406px;
 }
 
-.bg-text {
+.wrap-text {
   font-size: 14px;
   font-weight: 500;
   color: #fff;
-  padding: 40px 0 0 404px;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
-.bg-button {
-  letter-spacing: 0.5px;
+.wrap-button {
   font-size: 14px;
   font-weight: 500;
-  background-color: transparent;
-  border-radius: 30px;
-  vertical-align: auto;
-  border: 2px solid #fff;
+  color: #fff;
   width: 170px;
   height: 40px;
-  cursor: pointer;
-  color: #fff;
-  }
-
+  border-radius: 30px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  text-align: center;
+  padding: 1px 0 0 0;
+}
