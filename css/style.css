@@ -1,11 +1,11 @@
 * {
   font-family: 'Roboto', sans-serif;
   margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .menu {
   background-color: #EFEFEF;
-  
 }
 
 .menu-list {
@@ -96,6 +96,7 @@ a {
 
 .nav {
   background-color: #fff;
+  height: 78px;
 }
 
 .nav-list {
@@ -104,8 +105,7 @@ a {
   align-items: center;
   list-style-type: none;
   max-width: 1920px;
-  height: 79px;
-  padding: 0 3px 0 59px;
+  padding: 31px 3px 0 59px;
 }
 
 .nav-list-item {
@@ -118,47 +118,39 @@ a {
   color: #333333;
 }
 
-.main {
-  max-width: 1920px;
-  min-height: 1558px;
-}
-
-.background {
-  max-width: 1920px;
-  min-height: 604px;
+.banner {
   background-image: url(/img/BG.png);
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 0;
+  max-width: 1920px;
+  min-height: 604px;
 }
 
-.wrap {
-  width: 310px;
-  height: 219px;
-  background-color: teal;
+.wrapper {
+  padding: 161px 0 150px 405px;
 }
 
-.wrap-title {
+.wrapper-title {
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
 
-.wrap-text {
+.wrapper-text {
   font-size: 14px;
   font-weight: 500;
   color: #fff;
-  line-height: 1.6;
+  line-height: 1.5;
+  padding: 7px 0 53px 0;
 }
 
-.wrap-button {
+.wrapper-button {
   font-size: 14px;
   font-weight: 500;
   color: #fff;
-  width: 170px;
-  height: 40px;
-  border-radius: 30px;
-  border: 1px solid #fff;
+  border-radius: 40px;
+  border: 2px solid #fff;
   background-color: transparent;
   text-align: center;
-  padding: 1px 0 0 0;
+  padding: 10px 47px 10px 45px;
 }
