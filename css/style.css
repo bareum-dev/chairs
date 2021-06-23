@@ -317,3 +317,68 @@ a {
   text-align: center;
   padding: 9px 0 0 0;
 }
+
+.footer-top {
+  background-color: #fff;
+  min-width: 1920px;
+  height: 200px;
+}
+
+.footer-wrap {
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0 405px;
+}
+
+.youtube {
+  background-image: url(/img/Youtube.svg);
+}
+
+.vk {
+  background-image: url(/img/VK.svg)
+}
+
+.fb {
+  background-image: url(/img/FB.svg);
+}
+
+.instagram {
+  background-image: url(/img/Instagram.svg);
+}
+
+.social-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #66C05D;
+  border-radius: 50%;
+}
+
+.address {
+  font-size: 14px;
+  color: #000;
+}
+
+.footer-phone {
+  font-size: 16px;
+  color: #000;
+}
+
+.footer-button {
+  font-size: 14px;
+  color: #000;
+  width: 170px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #66C05D;
+  border-radius: 40px;
+}
+
+.footer-bottom {
+  background-color: #EFEFEF;
+  max-width: 1920px;
+  height: 100px;
+}
