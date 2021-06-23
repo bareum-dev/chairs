@@ -318,30 +318,36 @@ a {
   padding: 9px 0 0 0;
 }
 
+.footer {
+  max-width: 1920px;
+}
+
 .footer-top {
   background-color: #fff;
-  min-width: 1920px;
-  height: 200px;
+  max-width: 1920px;
+  height: 120px;
 }
 
 .footer-wrap {
-  max-width: 1110px;
+  width: 1110px;
+  height: 120px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 0 0 405px;
+  margin: auto;
+  padding: 38px 0 0 0;
 }
 
 .youtube {
   background-image: url(/img/Youtube.svg);
+  margin: 0 22px 0 8px;
 }
 
 .vk {
-  background-image: url(/img/VK.svg)
+  background-image: url(/img/VK.svg);
 }
 
 .fb {
   background-image: url(/img/FB.svg);
+  margin: 0 18px 0 20px;
 }
 
 .instagram {
@@ -351,8 +357,8 @@ a {
 .social-item {
   background-repeat: no-repeat;
   background-position: center;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #66C05D;
   border-radius: 50%;
 }
@@ -360,25 +366,30 @@ a {
 .address {
   font-size: 14px;
   color: #000;
+  margin: 40px 0 0 0;
+  margin: 16px 0 0 205px;
 }
 
 .footer-phone {
   font-size: 16px;
   color: #000;
+  margin: 14px 36px 0 102px;
 }
 
 .footer-button {
   font-size: 14px;
   color: #000;
-  width: 170px;
-  height: 40px;
+  width: 165px;
+  height: 25px;
   background-color: transparent;
   border: 2px solid #66C05D;
-  border-radius: 40px;
+  border-radius: 45px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  margin: 3px 0 0 0;
 }
 
 .footer-bottom {
   background-color: #EFEFEF;
-  max-width: 1920px;
-  height: 100px;
+  height: 64px;
 }
