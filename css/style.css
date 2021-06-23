@@ -392,4 +392,16 @@ a {
 .footer-bottom {
   background-color: #EFEFEF;
   height: 64px;
+  font-size: 12px;
+  color: #828282;
+}
+
+.general-info {
+  width: 1110px;
+  height: 64px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 0 0 19px;
 }
